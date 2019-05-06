@@ -3,7 +3,7 @@
 {{-- @section('title')
     Blog Posts
 @endsection --}}
-@section('title', 'Blog Posts');
+@section('title', 'Blog Posts')
 @section('content')
     <h1>
         <a href="{{ url('/posts/create') }}" class="header-menu">New Post</a>

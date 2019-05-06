@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', 'New Post');
+@section('title', 'New Post')
 
 @section('content')
     <h1>
@@ -10,7 +10,8 @@
     <form action="{{ url('/posts') }}" method="post">
         {{ csrf_field() }}
         <p>
-            <input type="text" name="title" placeholder="enter title"></p>
+            <input type="text" name="title" placeholder="enter title">
+        </p>
         <p>
             <textarea name="body" placeholder="enter body"></textarea>
         </p>
